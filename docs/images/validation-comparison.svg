@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="title desc">
+<title id="title">Qwen3.5-9B validation: zero-shot vs LoRA</title>
+<desc id="desc">On the same 508 validation questions, accuracy increased from 429 correct, 84.45 percent, to 474 correct, 93.31 percent. Improvement: 8.86 percentage points. Validation was also used for checkpoint selection.</desc>
+<rect width="1000" height="300" rx="12" fill="#F5F8FC"/>
+<g font-family="Arial, sans-serif">
+<text x="32" y="39" font-size="22" font-weight="700" fill="#142C48">Qwen3.5-9B · Same 508 validation questions</text>
+<text x="32" y="65" font-size="15" fill="#52647A">512px input · Same prompt and answer scoring</text>
+<text x="32" y="118" font-size="18" fill="#24364B">Zero-shot</text>
+<rect x="195" y="96" width="590" height="31" rx="3" fill="#E3EAF3"/>
+<rect x="195" y="96" width="498.248" height="31" rx="3" fill="#829BB8"/>
+<text x="805" y="118" font-size="21" font-weight="700" fill="#24364B">84.45%</text>
+<text x="32" y="177" font-size="18" fill="#24364B">LoRA tuned</text>
+<rect x="195" y="155" width="590" height="31" rx="3" fill="#E3EAF3"/>
+<rect x="195" y="155" width="550.512" height="31" rx="3" fill="#2664AB"/>
+<text x="805" y="177" font-size="21" font-weight="700" fill="#1A568E">93.31%</text>
+<text x="195" y="208" font-size="13" fill="#52647A">0%</text>
+<text x="747" y="208" font-size="13" fill="#52647A">100%</text>
+<text x="32" y="249" font-size="21" font-weight="700" fill="#1A568E">+8.86 percentage points</text>
+<text x="338" y="249" font-size="16" fill="#24364B">429 → 474 correct · +45 net correct answers</text>
+<text x="32" y="278" font-size="13" fill="#52647A">Validation used for checkpoint selection. This chart does not compare leaderboard scores.</text>
+</g></svg>
